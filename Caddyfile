@@ -1,4 +1,4 @@
-laravel.app {
+laravel.app:80 {
     tls off
     root /var/www/app/public
     fastcgi / workspace:9000 php {

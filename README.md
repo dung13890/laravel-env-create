@@ -17,6 +17,9 @@ $ docker-compose up -d
 
 # **** Within Workspace ****
 $ docker-compose exec workspace bash
+# If you want to install laravel project with composer then you can to do follow to way below
+# inside workspace
+$ chmod +x install.sh && ./install.sh
 
 # **** Within Mysql ****
 $ docker-compose exec mysql bash
